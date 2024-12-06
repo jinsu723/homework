@@ -1,6 +1,6 @@
 package section08;
-// 08-22 ~ 08-23
-public class Person_03 {
+// 08-22
+public class Person_03 {  // 클래스 선언
 	private int age;  // private 변수 선언
 	
 	void setAge(int num) {  // 변수를 변경할 수 있는 메서드 선언(매개변수 정수)
@@ -14,12 +14,5 @@ public class Person_03 {
 	
 	int getAge() {  // age 변수를 불러올 수 있는 메소드 선언
 		return age;  // age에 저장된 값을 return
-	}
-	
-	public static void main(String[] args) {  // 메인메소드
-		Person_03 kim = new Person_03();  // 객체 생성
-		kim.setAge(-30);  // 매개변수로 -30을 넣어 메소드 실행
-		kim.setAge(30);  // 메게변수로 30을 넣어 메소드 실행
-		System.out.println("kim의 나이는" + kim.getAge() + "세입니다.");  // age값을 받을 메소드 실행 및 결과 출력
 	}
 }
